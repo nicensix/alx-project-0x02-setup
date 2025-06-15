@@ -20,3 +20,13 @@ export interface PostProps {
   content: string;
   userId: number;
 }
+
+export interface UserProps {
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    city: string;
+    zipcode: string;
+  };
+}
